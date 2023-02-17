@@ -16,7 +16,7 @@
 
 # Inherit some common Pixel Experience stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
@@ -25,7 +25,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Device
 $(call inherit-product, device/motorola/beckham/device.mk)
 
-# Inherit some common Pixel Experience stuff.
+# Inherit some common EvolutionX stuff.
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_STOCK_ARCORE := false
@@ -76,7 +76,7 @@ TARGET_RECOVERY_FSTAB := device/motorola/sdm660-common/rootdir/etc/fstab.qcom
 
 # Device identifiers
 PRODUCT_DEVICE := beckham
-PRODUCT_NAME := aosp_beckham
+PRODUCT_NAME := evolution_beckham
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Moto Z3 Play
 PRODUCT_MANUFACTURER := Motorola
