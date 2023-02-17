@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_beckham.mk
+    $(LOCAL_DIR)/evolution_beckham.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_beckham-eng \
-    aosp_beckham-user \
-    aosp_beckham-userdebug
+    evolution_beckham-eng \
+    evolution_beckham-user \
+    evolution_beckham-userdebug
